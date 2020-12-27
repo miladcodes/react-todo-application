@@ -11,7 +11,7 @@ function Todo({ todos, completeTodo, removeTodo, updateTodo }) {
   });
 
   const submitUpdate = value => {
-    updateTodo(edit.Id, value);
+    updateTodo(edit.id, value);
     setEdit({
       id: null,
       value: "",
@@ -38,7 +38,7 @@ function Todo({ todos, completeTodo, removeTodo, updateTodo }) {
         />
         <TiEdit
           onClick={() => setEdit({ id: todo.id, value: todo.text })}
-          className="edit -icon"
+          className="edit-icon"
         />
       </div>
     </div>
