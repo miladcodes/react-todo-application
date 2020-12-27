@@ -12,6 +12,11 @@
 /build
 
 # misc
+.eslintcache
+.gitignore
+README.md
+package-lock.json
+yarn.lock
 .DS_Store
 .env.local
 .env.development.local
